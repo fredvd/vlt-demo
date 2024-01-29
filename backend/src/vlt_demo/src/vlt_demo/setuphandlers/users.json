@@ -1,0 +1,19 @@
+{
+  "portal": [
+    {
+      "email": "fred@plone.org",
+      "properties": {
+        "fullname": "vlt-demo",
+        "location": "World"
+      },
+      "groups": [
+      ],
+      "roles": [
+        "Member"
+      ],
+      "username": "vlt-demo"
+    }
+  ],
+    "team": [
+  ]
+}
