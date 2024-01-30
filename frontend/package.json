@@ -25,11 +25,12 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "private": false,
   "workspaces": [
     "src/addons/vlt-demo"
   ],
+  "theme": "@kitconcept/volto-light-theme",
   "addons": [
+    "@kitconcept/volto-light-theme",
     "vlt-demo"
   ],
   "jest": {
@@ -169,5 +170,7 @@
     "react-error-overlay": "6.0.9"
   },
   "packageManager": "yarn@3.2.3",
-  "theme": "vlt-demo"
+  "volta": {
+    "node": "20.11.0"
+  }
 }
